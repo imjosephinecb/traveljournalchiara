@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Travel Journal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f8f8;
+    }
+
+    h1 {
+      margin-top: 2rem;
+      font-size: 2.5rem;
+      color: #333;
+    }
+
+    p.description {
+      font-size: 1.2rem;
+      color: #666;
+      margin-bottom: 2rem;
+    }
+
+    .gallery {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      padding: 20px;
+    }
+
+    .destination {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+      width: 280px;
+      text-decoration: none;
+      color: #333;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .destination:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .destination img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+
+    .destination h3 {
+      margin: 15px 0 10px;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      background-color: #333;
+      color: white;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>My Travel Journal</h1>
+  <p class="description">Traveling around the world</p>
+
+  <div class="gallery">
+    <a class="destination" href="korea.html">
+<img src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrtKTWYIp1HTZteAmqsAZpTL-k3aZWxkCwF4ZtI6k961ArSBe9HkIxcVS9oFEvyo4wkikN1Jpdoik3n5BjYLOKrY80_066dEMjA3HWedmk_IVdJl6wEaeuo6iVbw7hj8QpiybArCA=w1188-h686-n-k-no" alt="seoul Korea">
+      <h3>Korea</h3>
+    </a>
+
+    
+    <a class="destination" href="hongkong.html">
+<img src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQt3RpwMf-zLJyzrtR5NTHvE-XH7XydkiNrhnoS6kkQXcU0bTcBV3dCkznuA5q0jf23URJED_th6FEyMaQjzWKD5J6dZ5mw8llAYFelBQ" alt="hongkong">
+      <h3>Hong Kong</h3>
+    </a>
+
+    <a class="destination" href="bali.html">
+      <img src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqVHaq67I1lVtlwNUgCG4sL4eltaqU1RQPifSHVa4KJ936KDhYqafOOfBimdfhBCzP4v2IsR_0hYr5CbQeYU3EQS8Ay9d3YcJgbz2EMnQAGdct_4WUnHvlDr76S6P-72rK1IPjLiw=w1188-h686-n-k-no" alt="Bali " />
+      <h3>Bali</h3>
+    </a>
+  </div>
+
+  <footer>
+    <p>2025 My Travel Adventures</p>
+  </footer>
+</body>
+</html>
